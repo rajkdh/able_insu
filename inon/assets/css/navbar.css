@@ -3,7 +3,7 @@ Start sub main Area
 ------------------------------------------*/
 .logo{
 	height: auto;
-	width: 250px;;
+	max-width: 121px;;
 }
 .header-area {
   background-color: #248CCC;
@@ -388,8 +388,9 @@ Start NavBer Css
 }
 
 .main-navbar.main-navbar-three .navbar .others-options .option-item .default-btn.navbar-btn-style {
-  background: -webkit-gradient(linear, left top, left bottom, from(#248CCC), to(#5FAEDD));
-  background: linear-gradient(180deg, #248CCC 0%, #5FAEDD 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#248CCC), to(#248CCC));
+  background: linear-gradient(180deg,#248CCC  0%, #248CCC 100%); 
+  border-radius:5px;
 }
 
 .main-navbar .navbar-brand {
@@ -747,7 +748,7 @@ Start NavBer Css
 }
 
 .main-navbar .navbar .others-options .option-item .default-btn::before {
-  background-color: var(--headingColor);
+  background-color: #EB1E27;
 }
 
 /* ----------------------------------------
