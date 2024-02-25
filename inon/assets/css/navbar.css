@@ -104,6 +104,7 @@ Start sub main Area
 .header-left-bar-text ul {
   padding-right: 0;
   margin: 0 !important;
+
 }
 
 .header-left-bar-text ul li {
@@ -152,9 +153,10 @@ Start sub main Area
 }
 
 .header-right-content ul li {
-  margin-right: 45px;
+  margin-right: 30px;
   position: relative;
-  padding-left: 30px;
+  padding-left: 28px;
+  display:inline-block;
 }
 
 .header-right-content ul li img {
@@ -386,8 +388,8 @@ Start NavBer Css
 }
 
 .main-navbar.main-navbar-three .navbar .others-options .option-item .default-btn.navbar-btn-style {
-  background: -webkit-gradient(linear, left top, left bottom, from(#2DC685), to(#2CB9A4));
-  background: linear-gradient(180deg, #2DC685 0%, #2CB9A4 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#248CCC), to(#5FAEDD));
+  background: linear-gradient(180deg, #248CCC 0%, #5FAEDD 100%);
 }
 
 .main-navbar .navbar-brand {
@@ -724,7 +726,7 @@ Start NavBer Css
   height: 47px;
   line-height: 50px;
   border-radius: 100%;
-  background-color: rgba(45, 202, 164, 0.15);
+  background-color: #D4E8F4;
   color: var(--paragraphColor);
   font-size: 25px;
   border: none;
