@@ -5140,7 +5140,7 @@ Start Blog Area
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #E4F5F5;
+  background-color: #D4E8F4;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -5179,7 +5179,7 @@ Start Blog Area
 .blog-slider.owl-theme .owl-nav [class*=owl-] {
   font-size: 25px;
   padding: 0 !important;
-  background: rgba(44, 178, 179, 0.09);
+  background: #5FAEDD;
   display: inline-block;
   cursor: pointer;
   border-radius: 50px;
