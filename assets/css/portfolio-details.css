@@ -153,7 +153,7 @@ Start Portfolio Details Area
 }
 
 .help-contact-card {
-  background-color: #2CB2B3;
+  background-color: var(--logoBlue);
   padding: 30px;
 }
 

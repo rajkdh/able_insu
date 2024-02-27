@@ -1357,7 +1357,7 @@ start Page Banner Area
 .single-page-banner-content h1 {
   font-size: 48px;
   font-weight: bold;
-  color: var(--headingColor);
+  color: white;
   margin-bottom: 5px;
 }
 
@@ -1379,7 +1379,7 @@ start Page Banner Area
   position: absolute;
   width: 1.8px;
   height: 15px;
-  background-color: var(--paragraphColor);
+  background-color: white;
   right: -12px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1395,7 +1395,7 @@ start Page Banner Area
 }
 
 .single-page-banner-content ul li a {
-  color: #D4E8F4;
+  color: white;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -2414,7 +2414,7 @@ Start Our Services Area
 .single-services-card::after {
   content: '';
   position: absolute;
-  background-color: #2CB2B3;
+  background-color: var(--logoBlue);
   width: 100%;
   height: 5px;
   left: 0;
@@ -2656,7 +2656,7 @@ Start Services Two Area
   width: 10px;
   height: 100%;
   right: -10px;
-  background-color: #2CB2B3;
+  background-color: var(--logoBlue);
   top: 0;
   bottom: 0;
   z-index: -1;
@@ -3391,7 +3391,7 @@ Start Free Quote Area
 
 .single-pricing-plan-card .pricing-box h4 {
   font-size: 32px;
-  color: #2CB2B3;
+  color: var(--logoBlue);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -3415,7 +3415,7 @@ Start Free Quote Area
 .single-pricing-plan-card .default-btn {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 199, 130, 0.1)), to(rgba(44, 184, 166, 0.1)));
   background: linear-gradient(180deg, rgba(45, 199, 130, 0.1) 0%, rgba(44, 184, 166, 0.1) 100%);
-  color: #2CB2B3;
+  color: var(--logoBlue);
   width: 100%;
   max-width: 285px;
   margin-left: auto;
@@ -3445,7 +3445,7 @@ Start Free Quote Area
 }
 
 .single-pricing-plan-card:hover {
-  background: #2CB2B3;
+  background: var(--logoBlue);
   -webkit-box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.1);
           box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.1);
 }
@@ -3460,7 +3460,7 @@ Start Free Quote Area
 }
 
 .single-pricing-plan-card:hover .pricing-box {
-  background-color: #2CB2B3;
+  background-color: var(--logoBlue);
 }
 
 .single-pricing-plan-card:hover .pricing-box h4 {
@@ -3511,7 +3511,7 @@ Start Odometer area
 }
 
 .single-odometer-item h2 {
-  color: #2CB2B3;
+  color:var(--logoBlue);
   font-size: 64px;
   font-weight: bold;
 }
@@ -3575,7 +3575,7 @@ Start Odometer area
 Start Odometer Two Area
 ---------------------------------------*/
 .odometer-two-area {
-  background-color: #2CB2B3;
+  background-color: #5BABD9;
   z-index: 1;
   position: relative;
 }
@@ -3975,7 +3975,7 @@ Start Our Experts Area
   line-height: 40px;
   border-radius: 100%;
   background: rgba(44, 178, 179, 0.1);
-  color: #2CB2B3;
+  color: var(--logoBlue);
   text-align: center;
   display: inline-block;
   -webkit-transition: var(--transition);
@@ -4664,7 +4664,7 @@ Start Faq area
 .faqs-content .faqs-item .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: #2CB2B3;
+  background-color: var(--logoBlue);
   color: var(--whiteColor);
 }
 
@@ -4910,7 +4910,7 @@ Start Team Area
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  color: #2CB2B3;
+  color: var(--logoBlue);
   font-size: 18px;
 }
 
@@ -5240,7 +5240,7 @@ Start Subscribe Area
   position: absolute;
   height: 100%;
   width: 700px;
-  background-color: #2CB2B3;
+  background-color: var(--logoBlue);
   border-radius: 0px 200px 200px 0px;
   left: 0;
   bottom: 0;
