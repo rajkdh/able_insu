@@ -496,7 +496,7 @@ Search Form Area
 Start Banner Area
 ---------------------------------------*/
 .banner-area {
-  background-color: rgba(44, 178, 179, 0.05);
+  background-color: #248CCC
   padding-top: 30px;
   padding-bottom: 60px;
   z-index: 1;
@@ -863,7 +863,7 @@ start Banner Two Area
 }
 
 .single-banner-two-content .banner-btn .default-btn.btn-style {
-  border: 1px solid #F76031;
+  border: 1px solid #EB1E27;
   border-radius: 30px;
   background-image: none;
   color: var(--mainColor);
@@ -1333,8 +1333,8 @@ start Page Banner Area
   left: 0;
   top: 0;
   bottom: 0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(34.32%, rgba(44, 178, 179, 0.15)), to(rgba(44, 178, 179, 0)));
-  background: linear-gradient(-270deg, rgba(44, 178, 179, 0.15) 34.32%, rgba(44, 178, 179, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(34.32%, #248CCC), to(#248CCC 0));
+  background: linear-gradient(-270deg, #248CCC 34.32%, #248CCC 100%);
 }
 
 .page-banner-area.team-page-are {
@@ -1395,7 +1395,7 @@ start Page Banner Area
 }
 
 .single-page-banner-content ul li a {
-  color: #2CB2B3;
+  color: #D4E8F4;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -2014,7 +2014,7 @@ Start Panther Area
 }
 
 .client-odometer p {
-  color: #262D65;
+  color: #5FAEDD;
   font-size: 20px;
   font-weight: 500;
 }
@@ -5140,7 +5140,7 @@ Start Blog Area
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #E4F5F5;
+  background-color: #D4E8F4;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -5179,7 +5179,7 @@ Start Blog Area
 .blog-slider.owl-theme .owl-nav [class*=owl-] {
   font-size: 25px;
   padding: 0 !important;
-  background: rgba(44, 178, 179, 0.09);
+  background: #5FAEDD;
   display: inline-block;
   cursor: pointer;
   border-radius: 50px;
