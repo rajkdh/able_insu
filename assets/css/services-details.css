@@ -5,7 +5,7 @@
   height: 300px; /* Adjust based on desired height */
   overflow: hidden;
   margin: auto;
- background-color:lightblue;
+ background-color:#F7F7F7;
 padding-top: 40px;
 }
 
@@ -38,6 +38,7 @@ start Services Details area
 .download-app h2 {
   font-size: 20px;
   margin-bottom: 20px;
+  text-align:center;
 }
 
 .download-app .default-btn {
@@ -51,12 +52,13 @@ start Services Details area
           align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: start;
+          justify-content: center;
   margin-bottom: 20px;
   padding: 20px;
   width: 100%;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  
 }
 
 .download-app .default-btn img {
